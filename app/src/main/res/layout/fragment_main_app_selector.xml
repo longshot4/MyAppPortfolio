@@ -11,20 +11,20 @@
 
     <TextView
         android:text="@string/nano_degree_app_port"
-        android:textColor="#000000"
-        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:textSize="@dimen/text_activity_title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:paddingBottom="10dp"/>
+        android:paddingBottom="@dimen/text_default_margin_bottom"/>
     <Button
         android:id="@+id/spotify_button"
         android:text="@string/spotify_streamer"
         android:layout_width="match_parent"
         android:layout_gravity="center"
         android:layout_height="fill_parent"
-        android:background="#80bfff"
-        android:layout_marginBottom="10dp"
+        android:background="@color/nanoProjectBlue"
+        android:layout_marginBottom="@dimen/button_default_margin_bottom"
         android:layout_weight=".5"/>
     <Button
         android:id="@+id/scores_button"
@@ -32,8 +32,8 @@
         android:layout_width="match_parent"
         android:layout_gravity="center"
         android:layout_height="fill_parent"
-        android:background="#80bfff"
-        android:layout_marginBottom="10dp"
+        android:background="@color/nanoProjectBlue"
+        android:layout_marginBottom="@dimen/button_default_margin_bottom"
         android:layout_weight=".5"/>
     <Button
         android:id="@+id/library_button"
@@ -41,8 +41,8 @@
         android:layout_width="match_parent"
         android:layout_gravity="center"
         android:layout_height="fill_parent"
-        android:background="#80bfff"
-        android:layout_marginBottom="10dp"
+        android:background="@color/nanoProjectBlue"
+        android:layout_marginBottom="@dimen/button_default_margin_bottom"
         android:layout_weight=".5"/>
     <Button
         android:id="@+id/build_bigger_button"
@@ -50,8 +50,8 @@
         android:layout_width="match_parent"
         android:layout_gravity="center"
         android:layout_height="fill_parent"
-        android:background="#80bfff"
-        android:layout_marginBottom="10dp"
+        android:background="@color/nanoProjectBlue"
+        android:layout_marginBottom="@dimen/button_default_margin_bottom"
         android:layout_weight=".5"/>
     <Button
         android:id="@+id/xyz_button"
@@ -59,18 +59,18 @@
         android:layout_width="match_parent"
         android:layout_gravity="center"
         android:layout_height="fill_parent"
-        android:background="#80bfff"
-        android:layout_marginBottom="10dp"
+        android:background="@color/nanoProjectBlue"
+        android:layout_marginBottom="@dimen/button_default_margin_bottom"
         android:layout_weight=".5"/>
     <Button
         android:id="@+id/capstone_button"
         android:text="@string/capstone"
-        android:textColor="#ffffff"
+        android:textColor="@color/white"
         android:layout_width="match_parent"
         android:layout_gravity="center"
         android:layout_height="fill_parent"
-        android:background="#0066cc"
-        android:layout_marginBottom="10dp"
+        android:background="@color/capstoneBlue"
+        android:layout_marginBottom="@dimen/button_default_margin_bottom"
         android:layout_weight=".5"/>
 
 </LinearLayout>
